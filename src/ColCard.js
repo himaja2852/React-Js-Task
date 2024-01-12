@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Col, Card } from 'react-bootstrap';
 import './App.css';
 
@@ -6,6 +7,7 @@ const ColCard = () => {
   const handleInfoClick = (link) => {
     window.open(link, '_blank');
   };
+
 
   return (
     <div className="row row-cols-1 row-cols-md-2 g-4">
